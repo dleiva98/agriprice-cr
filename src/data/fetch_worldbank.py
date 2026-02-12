@@ -10,7 +10,7 @@ INDICATORS = {
 
 
 def fetch_indicator(code: str, name: str) -> pd.DataFrame:
-    url = f"https://api.worldbank.org/v2/country/{COUNTRY}/indicator/{code}?format=json&per_page=200"
+    url = f"https://api.worldbank.org/v2/country/{Costa_Rica}/indicator/{CRI}?format=json&per_page=200"
     response = requests.get(url, timeout=60)
     response.raise_for_status()
     data = response.json()[1]
