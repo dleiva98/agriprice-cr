@@ -119,7 +119,7 @@ Deberías ver, entre otros:
 
 Si en GitHub solo te aparece `.gitkeep`, revisa esta guía:
 
-- `docs/publicar_en_github.md`
+- `docs/publicar_en_github.md` (incluye caso Codespaces cuando no existe la rama `work`)
 
 También puedes validar localmente la estructura con:
 

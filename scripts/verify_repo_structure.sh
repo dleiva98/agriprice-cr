@@ -10,6 +10,7 @@ required_files=(
   "requirements.txt"
   "setup_proyecto.sh"
   "scripts/publish_agent_changes.sh"
+  "scripts/resolve_conflicts_force_agent.sh"
   "src/data/fetch_pima_cenada.py"
   "src/features/build_features.py"
   "src/models/train.py"
