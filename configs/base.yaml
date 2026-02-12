@@ -1,0 +1,18 @@
+project:
+  name: agriprice-cr
+  horizon_days: 7
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+training:
+  target_column: price
+  date_column: date
+  product_column: product
+  test_size_days: 60
+  random_state: 42
+
+features:
+  lags: [1, 7, 14, 28]
+  rolling_windows: [7, 14, 28]
